@@ -1,8 +1,10 @@
+{% load static %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'global/style.css' %}">
 </head>
 <body>  
     {% include 'global/partials/header.html' %}
