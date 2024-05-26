@@ -4,6 +4,7 @@ header{
     height: 90px;
     padding: 20px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.338);
+    margin-bottom: 2px;
 }
 
 h1{
