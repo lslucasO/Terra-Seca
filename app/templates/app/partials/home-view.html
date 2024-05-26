@@ -1,5 +1,7 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'app/css/home-view.css' %}">
+<script src="{% static 'app/js/info.js' %}"></script>
+
 
 <main>
     <div class="main-container">
@@ -12,8 +14,8 @@
             <p>Para você que é novo no jogo, esta é a oportunidade perfeita para mergulhar no lado competitivo do osu!</p>
         </section>  
         <div class="btn-container">
-            <input class="btn" type="button" value="Informações">
-            <input class="btn" type="button" value="Discord" onclick="alertInfo()">
+            <input class="btn" type="button" value="Informações" onclick="alertInfo()">
+            <input class="btn" type="button" value="Discord" >
         </div>
     </div>
     <figure class="img-container">
