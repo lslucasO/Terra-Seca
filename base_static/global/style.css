@@ -1,5 +1,19 @@
+@import url('https://db.onlinewebfonts.com/c/bb2e1211dfd31103079dbce7c49e1d4e?family=DIN+Neuzeit+Grotesk+LT+W01+BdCn');
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: var(--default-font-family);
+}
+
+:root{
+    --default-header-color: #DB7C26;
+    --default-font-family: 'Amazon Ember', sans-serif;
+}
+
+
+header{
+    background-color: var(--default-header-color);
 }

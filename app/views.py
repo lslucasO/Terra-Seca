@@ -5,5 +5,5 @@ def home(request):
     context = {
         'title': 'Home'
     }
-    return render(request, 'global/partials/home.html', context)
+    return render(request, 'app/pages/home.html', context)
     
