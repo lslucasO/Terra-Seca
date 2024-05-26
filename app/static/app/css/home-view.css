@@ -14,6 +14,7 @@ img{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.34);
     width: 600px;
     height: 470px;
+    background-color: #e0afa0aa;
     margin-left: 50px;
     border-radius: 10px;
 }
@@ -46,7 +47,8 @@ img{
     transition: 0.2s;
     font-size: 1.2em;
     border-radius: 5px;
-    background-color: #F4F3EE;
+    color: white;
+    background-color: #DB7C26;
     border: 1px solid rgba(0, 0, 0, 0.148);
     width: 200px;
     height: 45px;
@@ -54,7 +56,7 @@ img{
 
 .btn:hover{
     transition: 0.2s;
-    color: white;
-    background-color: #DB7C26;
+    color: black;
+    background-color: white;
     cursor: pointer;
 }
