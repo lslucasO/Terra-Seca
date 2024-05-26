@@ -1,4 +1,32 @@
 header{
+    display: flex;
+    justify-content: space-between;
     height: 90px;
-    background-color: blue;
+    padding: 20px;
+    background-color: #DB7C26;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.338);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h1, .link{
+    color: white;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-right: 10px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
