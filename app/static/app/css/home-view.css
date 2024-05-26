@@ -7,13 +7,13 @@ main{
 }
 
 img{
-    height: 600px;
+    height: 650px;
 }
 
 .main-container{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.34);
     width: 600px;
-    height: 400px;
+    height: 470px;
     margin-left: 50px;
     border-radius: 10px;
 }
@@ -36,10 +36,13 @@ img{
 }
 
 .btn-container{
-    
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .btn{
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.181);
     transition: 0.2s;
     font-size: 1.2em;
     border-radius: 5px;
